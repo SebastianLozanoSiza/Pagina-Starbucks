@@ -129,6 +129,58 @@ header {
     margin: 0.5rem 0 1.4rem;
 }
 
+.redes-sociales {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    z-index: 1; 
+}
+
+.red-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 32px;
+    color: var(--main-color);
+    width: 40px; 
+    height: 40px; 
+    background-color: var(--second-color);
+    border-radius: 50%; 
+}
+
+.red-social:hover {
+    background-color: #fff; 
+}
+
+.caja_fijada{
+    height: 15%;
+    border-radius: 10px;
+    width: 30%;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid var(--tc);
+    animation-duration: 8s;
+}
+
+.caja_fijada img:hover{
+    cursor: pointer;
+}
+
+.caja_derecha {
+    display: none;
+}
+
 .btn {
     padding: 7px 16px;
     border: 2px solid var(--second-color);
